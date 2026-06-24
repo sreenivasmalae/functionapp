@@ -1,0 +1,68 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/openbadges/v2",
+    {
+      "serialNumber": {
+        "@id": "https://schema.org/serialNumber",
+        "@type": "xsd:string"
+      }
+    },
+    {
+      "alumniOf": {
+        "@id": "http://schema.org/alumniOf",
+        "@type": "xsd:string"
+      }
+    },
+    {
+      "abstract": {
+        "@id": "https://schema.org/abstract",
+        "@type": "xsd:string"
+      }
+    },
+    {
+      "alternativeHeadline": {
+        "@id": "https://schema.org/alternativeHeadline",
+        "@type": "xsd:string"
+      }
+    },
+    {
+      "@vocab": "urn:blockcerts:ext#"
+    },
+    "https://w3id.org/security/data-integrity/v2",
+    "https://w3id.org/blockcerts/v3.1"
+  ],
+  "abstract": "test course",
+  "alternativeHeadline": "Imported Certificate",
+  "certificatename": "Imported Certificate",
+  "courseprogramname": "test course",
+  "credentialSubject": {
+    "alumniOf": {
+      "id": "https://testtraining-nacd.human-logic.com"
+    },
+    "id": "ecdsa-koblitz-pubkey:0x0000000000000000000000000000000000000000"
+  },
+  "department": "",
+  "gradescore": "",
+  "id": "urn:uuid:3f61d9d7-e2ee-4761-b396-244a59641acd",
+  "issuanceDate": "2026-06-22T10:00:00Z",
+  "issuer": "https://app.perpetual.academy/issuers/nacd-training.json",
+  "nonce": "C20B82747C",
+  "originalcertnumber": "NACD-BP-002",
+  "proof": {
+    "created": "2026-06-22T12:36:05Z",
+    "cryptosuite": "merkle-proof-2019",
+    "id": "urn:uuid:5d5ee04e-f497-4780-9da6-3098c266f7eb",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z65N6GBZByDiB7gLjTuMrXr718iDBvPzkMisAqGqZLbJZbemcKMPkiURiCp4heHHqwzUpv1C2QjwAgevKTddEA6eMaJiXB9H8Z8N9619TqGVSbf67vGjrAkaufpK6pvEKm9Z1CJjHFXGqM4PzR2TvQYMGciLExcV8pSYLMxZvtr49TVktdrQQTRgEyenvivJ7vqLM4vtb4TRjYEvBRrgGyRg6SHTtwcHpdfBGqMCqnq1HLeGRDKXQsjAwQwHHHGQiHf78vvpED8V4QxC8EX7VyzzXaSXXxG75BTQGDiSG3ZETeEJ2EomrX3NSDohXf7HUKctfpFk6wbDyBzjegRuA9Q1G5nXCsTvpj5T2gzydZPPtnyaBdhj6UqJEtpocknRkTGK9UKrL2jnGhZKhgxBnxNw7VjxhRra1VeaTgfe9uVYJ5bPw5SuUJUipu4VMrdZJU9PrnsYaxmJubvpnERCrupEGp3wSpAokqp6AZQXjxndQcobDB4ERULp",
+    "type": "DataIntegrityProof",
+    "verificationMethod": "ecdsa-koblitz-pubkey:0xd970293be61F067541215CC57f7169fa430D767D"
+  },
+  "recipientdisplayname": "Fatima Al Zaabi",
+  "salt": "aZlfbRXutJVTgStimXeElETZ6Pul3ekbl2hulRjSksw",
+  "serialNumber": "f9b809ab-5413-466b-a593-186d4948c29f",
+  "type": [
+    "VerifiableCredential",
+    "BlockcertsCredential"
+  ]
+}
